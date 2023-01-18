@@ -1,0 +1,26 @@
+{% load static %}
+<head>
+  <script src="{% static '/js/jquery-3.6.0.min.js'%}" charset="utf-8"></script>
+  <script src="{% static '/js/phonebook.js'%}" charset="utf-8"></script>
+</head>
+
+<header>
+  <h1>Телефонный справочник</h1> <button type="button" onclick='get_phones()' name="button">Получить (пизды)</button>
+</header>
+
+<div class="container">
+  <table>
+    <thead>
+      <th>Должность</th>
+      <th>ФИО</th>
+      <th>Городской</th>
+      <th>Сотовый</th>
+      <th>Внутренний</th>
+      <th>Местоположение</th>
+
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+</div>
